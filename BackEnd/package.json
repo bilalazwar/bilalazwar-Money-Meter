@@ -1,0 +1,31 @@
+{
+  "name": "expensetracker",
+  "version": "1.0.0",
+  "description": "Back end part of the Expense Tracker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bilalazwar/bilalazwar-Money-Meter.git"
+  },
+  "keywords": [
+    "mern",
+    "stack"
+  ],
+  "author": "Bilal Azwar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bilalazwar/bilalazwar-Money-Meter/issues"
+  },
+  "homepage": "https://github.com/bilalazwar/bilalazwar-Money-Meter#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.0",
+    "validator": "^13.15.15"
+  }
+}
