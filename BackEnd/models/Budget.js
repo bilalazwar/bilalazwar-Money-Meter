@@ -20,7 +20,7 @@ const budgetSchema = new mongoose.Schema({
   spentAmount: {
     type: Number,
     default: 0,
-    min: [0, 'Spent amount cannot be negative']
+    min: [0, 'Spent amount cannot be negative']git 
   },
   currency: {
     type: String,
